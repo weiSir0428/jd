@@ -8,6 +8,12 @@ body {
     color: #666;
     line-height: 1.5;
     background-color: #ccc;
+    height: 2000px;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
 }
 
 ul {
@@ -163,4 +169,26 @@ div {
 
 .brand img {
     width: 100%;
+}
+
+
+/* nav */
+
+.nav {
+    padding-top: 5px;
+}
+
+.nav a {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.nav a img {
+    width: 40px;
+    margin: 10px 0;
+}
+
+.nav a span {
+    display: block;
 }
